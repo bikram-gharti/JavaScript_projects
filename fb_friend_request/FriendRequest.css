@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 223, 223);
+}
+
+#card{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    padding: 40px 0;
+    text-align: center;
+    color: rgb(60, 86, 192);
+}
+
+#card img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+#card h1{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#card h2{
+    margin: 10px;
+    font-size: 10px;
+}
+
+#card h3{
+    margin: 20px;
+    font-size: 18px;
+}
+
+#card .btn_section{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn_section button{
+    padding: 6px 35px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+}
+.btn_section #decline{
+    background-color: red;
+}
+
+.btn_section #accept{
+    background-color: lawngreen;
+}
