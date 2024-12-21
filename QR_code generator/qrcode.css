@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.container{
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+}
+
+.container h1{
+    font-size: 1.8vw;
+    font-weight: 700;
+    color: rgb(47, 100, 204);
+}
+.container .line{
+    height: 1.5px;
+    width: 100%;
+    margin: 10px 0;
+    background-color: black;
+}
+.container .box{
+    width: 100%;
+    padding: 0 30px;
+}
+.box #input_text{
+    width: 100%;
+    padding: 8px;
+    font-size: 1vw;
+    font-weight: 600;
+    color: rgb(47, 100, 204);
+    border: 2px solid rgb(47, 100, 204);
+    margin-top: 10px;
+}
+.box #input_text:focus{
+    border: 2px solid rgb(47, 100, 204);
+    outline: none;
+}
+#text{
+    color: red;
+}
+.box button{
+    width: 100%;
+    padding: 8px;
+    font-size: 1vw;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color: rgb(47, 100, 204);
+    margin-bottom: 10px;
+}
+
+#imgbox{
+    text-align: center;
+    margin: 10px;
+}
+
+.error{
+    animation: shake 0.1s linear 10;
+}
+@keyframes shake{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(-2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
